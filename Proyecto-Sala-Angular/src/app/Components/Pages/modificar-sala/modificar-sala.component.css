@@ -1,0 +1,60 @@
+.modificarsala {
+  width: 70em;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  background-color: transparent;
+  margin-left: 250px;
+}
+
+.formulario {
+  background-color: transparent;
+}
+
+fieldset {
+  border: 2px solid black;
+  background: transparent;
+}
+
+legend {
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-size: 35px;
+  color: white;
+  background-color: transparent;
+}
+
+input,
+select {
+  font-size: 25px;
+  border-bottom: 1px solid #0652dd;
+  display: block;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: transparent;
+}
+input:focus {
+  border-bottom: 3px solid #0652dd;
+}
+input:focus {
+  outline: none;
+}
+
+::placeholder,
+.submit,
+option {
+  color: black;
+}
+
+.submit {
+  margin-top: 50px;
+  width: 200px;
+  border: 2px solid black;
+  margin-left: 80%;
+  background-color: transparent;
+  color: #005aa7;
+}

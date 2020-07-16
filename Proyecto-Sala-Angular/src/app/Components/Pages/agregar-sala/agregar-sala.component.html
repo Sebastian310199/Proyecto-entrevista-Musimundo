@@ -1,0 +1,17 @@
+<div class="agregarsala">
+
+  <form class="formulario" (ngSubmit)="AgregarSala()" #form="ngForm">
+    <fieldset>
+      <legend>Administracion de salas: Agregar una sala</legend>
+      <input placeholder="Nombre" type="text" [(ngModel)]="this.sala.Nombre" [ngModelOptions]="{standalone: true}">
+      <input placeholder="Capacidad" type="text" [(ngModel)]="this.sala.Capacidad"
+        [ngModelOptions]="{standalone: true}">
+      <input placeholder="Tipo de Sala" type="text" [(ngModel)]="this.sala.TipoSala"
+        [ngModelOptions]="{standalone: true}">
+      <input class="fecha" placeholder="Fecha" type=date [(ngModel)]="this.sala.Fecha"
+        [ngModelOptions]="{standalone: true}">
+      <button class="submit" [hidden]=!Habilitar()>Agregar Sala </button>
+    </fieldset>
+  </form>
+
+</div>

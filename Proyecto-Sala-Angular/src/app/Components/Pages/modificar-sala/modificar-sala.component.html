@@ -1,0 +1,19 @@
+<div class="modificarsala">
+  <form class="formulario" (ngSubmit)="ModificarSala()" #form="ngForm">
+    <fieldset>
+      <legend>Administracion de salas: Modificar una sala</legend>
+      <select [(ngModel)]="salaCampo" [ngModelOptions]="{standalone: true}">
+        <option [ngValue]="item" *ngFor="let item of this.salas">{{item.Nombre}}</option>
+      </select>
+      <input placeholder="Nombre de la Sala" type="text" [(ngModel)]="this.salaCampo.Nombre"
+        [ngModelOptions]="{standalone: true}">
+      <input placeholder="Capacidad" type="number" [(ngModel)]="this.salaCampo.Capacidad"
+        [ngModelOptions]="{standalone: true}">
+      <input placeholder="Tipo de Sala" type="text" [(ngModel)]="this.salaCampo.TipoSala"
+        [ngModelOptions]="{standalone: true}">
+      <input class="fecha" placeholder="MM/DD/YYYY" type="date" [(ngModel)]="this.salaCampo.Fecha"
+        [ngModelOptions]="{standalone: true}">
+      <input class="submit" value="Modificar sala" type="submit">
+    </fieldset>
+  </form>
+</div>

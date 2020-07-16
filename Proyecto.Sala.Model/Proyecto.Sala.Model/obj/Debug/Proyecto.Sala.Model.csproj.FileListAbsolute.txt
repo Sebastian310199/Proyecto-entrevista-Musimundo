@@ -1,0 +1,5 @@
+C:\Users\sebas\Documents\SistemaABMSala\Proyecto.Sala.Model\Proyecto.Sala.Model\bin\Debug\Proyecto.Sala.Model.dll
+C:\Users\sebas\Documents\SistemaABMSala\Proyecto.Sala.Model\Proyecto.Sala.Model\bin\Debug\Proyecto.Sala.Model.pdb
+C:\Users\sebas\Documents\SistemaABMSala\Proyecto.Sala.Model\Proyecto.Sala.Model\obj\Debug\Proyecto.Sala.Model.dll
+C:\Users\sebas\Documents\SistemaABMSala\Proyecto.Sala.Model\Proyecto.Sala.Model\obj\Debug\Proyecto.Sala.Model.pdb
+C:\Users\sebas\Documents\SistemaABMSala\Proyecto.Sala.Model\Proyecto.Sala.Model\obj\Debug\Proyecto.Sala.Model.csprojAssemblyReference.cache
